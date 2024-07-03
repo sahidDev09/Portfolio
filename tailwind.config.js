@@ -7,6 +7,11 @@ export default {
         "spin-slow": "spin 4s linear infinite",
         "spin-fast": "spin 0.5s linear infinite",
       },
+      colors: {
+        highlight: {
+          btn: "#3DB883",
+        },
+      },
     },
   },
   plugins: [require("daisyui")],

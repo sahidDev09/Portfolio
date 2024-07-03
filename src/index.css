@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hoverAnim:hover {
+  .arrowGit {
+    rotate: -45deg;
+    transition: ease-in-out 0.2s;
+  }
+}

@@ -1,6 +1,10 @@
+import { FaGithub } from "react-icons/fa";
+import { IoArrowForward } from "react-icons/io5";
+import resume from "../../assets/resume/Profile-3.pdf";
+
 const Nabvar = () => {
   return (
-    <div className="fixed z-[999] w-full font-['Neue_Montreal'] pt-2">
+    <div className="fixed z-[999] w-full font-['Neue_Montreal'] bg-zinc-900 pt-2">
       <div className="navbar container mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
@@ -53,12 +57,24 @@ const Nabvar = () => {
           </ul>
         </div>
         <div className="navbar-end flex gap-3">
-          <li className=" hidden md:inline hover:bg-[#3DB883] border border-[#3DB883] list-none p-2 rounded-full px-4">
-            <a className=" text-zinc-300" href="">
-              Linkedin
-            </a>
-          </li>
-          <a className="p-2 px-4 rounded-full bg-[#3DB883] border-none text-white hover:bg-[#267e58]">
+          <a
+            href="https://github.com/sahidDev09"
+            target="_blank"
+            className="hoverAnim hidden md:inline bg-zinc-700 hover:bg-zinc-800 list-none p-2 rounded-full px-4">
+            <div className=" flex gap-3 items-center">
+              <span>
+                <FaGithub />
+              </span>
+              <h1 className=" text-zinc-300">GitHub</h1>
+              <span className="arrowGit bg-white text-black rounded-full">
+                <IoArrowForward />
+              </span>
+            </div>
+          </a>
+          <a
+            href={resume}
+            download="resume"
+            className="p-2 px-4 rounded-full bg-[#3DB883] border-none text-white hover:bg-[#267e58]">
             Download CV
           </a>
         </div>

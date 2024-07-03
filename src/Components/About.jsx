@@ -4,7 +4,7 @@ import { IoArrowForward } from "react-icons/io5";
 const About = () => {
   return (
     <div className=" w-full md:p-20 p-5 bg-zinc-900 rounded-t-3xl">
-      <h1 className="text-['Neue_Montreal'] text-[3.6vw] leading-[4vw] ">
+      <h1 className=" font-neue text-[3.6vw] leading-[4.4vw] tracking-normal ">
         Welcome to my digital portfolio! I’m Sahid, a passionate MERN stack
         developer dedicated to crafting beautiful and functional websites. Dive
         in to explore my work and journey.
@@ -26,7 +26,7 @@ const About = () => {
 
       <div className=" grid md:grid-cols-2 gap-10">
         <div className="about-details">
-          <h1 className=" font-['Neue_Montreal'] text-2xl md:text-5xl text-highlight-btn">
+          <h1 className=" font-neue text-2xl md:text-5xl text-highlight-btn">
             My Approach
           </h1>
           <hr className=" my-6" />

@@ -57,13 +57,13 @@ const Navbar = () => {
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 gap-3">
-            <li className=" hover:bg-[#3DB883] hover:rounded-full transition-all">
+            <li className=" font-neue hover:bg-[#3DB883] hover:rounded-full transition-all">
               <a href="">About me</a>
             </li>
-            <li className=" hover:bg-[#3DB883] hover:rounded-full transition-all">
+            <li className=" font-neue hover:bg-[#3DB883] hover:rounded-full transition-all">
               <a href="">Skills</a>
             </li>
-            <li className=" hover:bg-[#3DB883] hover:rounded-full transition-all">
+            <li className=" font-neue hover:bg-[#3DB883] hover:rounded-full transition-all">
               <a href="">Projects</a>
             </li>
           </ul>

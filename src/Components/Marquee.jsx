@@ -8,14 +8,14 @@ const Marquee = () => {
           initial={{ x: 0 }}
           animate={{ x: "-100%" }}
           transition={{ ease: "linear", repeat: Infinity, duration: 5 }}
-          className=" text-[22vw] md:-mb-12 pt-10 leading-none font-semibold font-['Founders_Grotesk_X-Condensed']">
+          className=" text-[22vw] md:-mb-12 pt-10 leading-none font-semibold font-founders_bl">
           About me.
         </motion.h1>
         <motion.h1
           initial={{ x: 0 }}
           animate={{ x: "-100%" }}
           transition={{ ease: "linear", repeat: Infinity, duration: 5 }}
-          className=" text-[22vw] md:-mb-12 pt-10 leading-none font-semibold font-['Founders_Grotesk_X-Condensed']">
+          className=" text-[22vw] md:-mb-12 pt-10 leading-none font-semibold font-founders_bl">
           About me.
         </motion.h1>
       </div>

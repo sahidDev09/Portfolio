@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react";
+import Skills from "./Skills";
+import Education from "./Education";
 
 const SkillsEdu = () => {
   const [rotate, setRotate] = useState(0);
@@ -21,7 +23,7 @@ const SkillsEdu = () => {
       <h1 className=" text-4xl font-bold mb-10 text-center ">
         Skills & Educations
       </h1>
-      <div className="grid md:grid-cols-2 gap-5 w-full h-[80vh] overflow-hidden container mx-auto">
+      <div className="grid md:grid-cols-2 gap-5 w-full overflow-hidden container mx-auto">
         <div className="eyes hidden md:inline relative w-full h-full bg-cover bg-no-repeat bg-center bg-[url(https://i.ibb.co/MCC1hbB/eyebg-2.jpg)] rounded-2xl">
           <div className=" absolute w-1/2 flex gap-5 justify-between top-1/2 left-1/2 -translate-x-[50%] -translate-y-[100%]">
             <div className=" flex items-center justify-center w-[10vw] h-[10vw] bg-zinc-200 rounded-full">
@@ -56,7 +58,10 @@ const SkillsEdu = () => {
           </div>
         </div>
 
-        <div className="skillsEdu bg-red-400"></div>
+        <div className="skillsEdu bg-zinc-900 rounded-2xl">
+          <Skills />
+          <Education />
+        </div>
       </div>
     </div>
   );

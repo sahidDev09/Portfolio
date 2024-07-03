@@ -12,6 +12,11 @@ export default {
           btn: "#3DB883",
         },
       },
+      fontFamily: {
+        founders_bl: ["Founders_bl", "sans-serif"],
+        founders_lg: ["Founders_lg", "sans-serif"],
+        neue: ["Neue", "sans-serif"],
+      },
     },
   },
   plugins: [require("daisyui")],

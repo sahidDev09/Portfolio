@@ -24,23 +24,30 @@ const About = () => {
 
       <hr className=" md:my-14 my-8 border-[1px] border-zinc-400" />
 
-      <div className=" grid md:grid-cols-2">
+      <div className=" grid md:grid-cols-2 gap-10">
         <div className="about-details">
-          <h1 className=" font-['Neue_Montreal'] text-[3vw] text-highlight-btn">
-            My Aproach
+          <h1 className=" font-['Neue_Montreal'] text-2xl md:text-5xl text-highlight-btn">
+            My Approach
           </h1>
-          <hr className=" my-3" />
+          <hr className=" my-6" />
 
-          <h1 className=" text-7xl font-bold uppercase ">SAHID AHMED</h1>
+          <h1 className="md:text-7xl text-4xl font-bold uppercase ">
+            SAHID AHMED
+          </h1>
           <p className=" text-zinc-400">
             Computer Science and Engineering Student & MERN Stack Developer
           </p>
           <h1 className=" text-2xl font-semibold my-4">About Me</h1>
           <p className=" flex flex-col gap-3 text-zinc-400">
-            Hello! I am a MERN stack developer with expertise in HTML, CSS,
-            Tailwind, JavaScript, React.js, Express.js, Node.js, MongoDB,
-            Firebase, Git, and GitHub. I started my journey with Programming
-            Hero and am currently exploring Next.js to enhance my skills{" "}
+            <span>
+              Hello! I am a MERN stack developer with expertise in{" "}
+              <span className=" text-highlight-btn">
+                HTML, CSS, Tailwind, JavaScript, React.js, Express.js, Node.js,
+                MongoDB, Firebase, Git, and GitHub
+              </span>
+              . I started my journey with Programming Hero and am currently
+              exploring Next.js to enhance my skills
+            </span>
             <span>
               As a computer science student at Metropolitan University Sylhet, I
               love learning new technologies and collaborating in team
@@ -93,8 +100,14 @@ const About = () => {
             </ul>
           </div>
         </div>
-        <div className=" bg-green-500">
-          <img src="" alt="" />
+        <div className=" p-5">
+          <div className="rounded-2xl">
+            <img
+              className=" rounded-2xl object-cover"
+              src="https://i.ibb.co/hdTcvZN/1716014315884.jpg"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </div>

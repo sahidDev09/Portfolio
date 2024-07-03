@@ -1,8 +1,20 @@
+import { useState, useRef } from "react";
 import { FaGithub } from "react-icons/fa";
 import { IoArrowForward } from "react-icons/io5";
 import resume from "../../assets/resume/Profile-3.pdf";
 
-const Nabvar = () => {
+const Navbar = () => {
+  const [isDownloading, setIsDownloading] = useState(false);
+  const downloadLink = useRef(null);
+
+  const handleDownload = () => {
+    setIsDownloading(true);
+    setTimeout(() => {
+      setIsDownloading(false);
+      downloadLink.current.click();
+    }, 2000);
+  };
+
   return (
     <div className="fixed z-[999] w-full font-['Neue_Montreal'] bg-zinc-900 pt-2">
       <div className="navbar container mx-auto">
@@ -60,27 +72,38 @@ const Nabvar = () => {
           <a
             href="https://github.com/sahidDev09"
             target="_blank"
-            className="hoverAnim hidden md:inline bg-zinc-700 hover:bg-zinc-800 list-none p-2 rounded-full px-4">
+            className="hoverAnim bg-zinc-700 hover:bg-zinc-800 list-none p-2 rounded-full px-4">
             <div className=" flex gap-3 items-center">
               <span>
                 <FaGithub />
               </span>
-              <h1 className=" text-zinc-300">GitHub</h1>
-              <span className="arrowGit bg-white text-black rounded-full">
+              <h1 className="hidden md:inline text-zinc-300 text-lg">GitHub</h1>
+              <span className="arrowGit hidden md:inline bg-white text-black rounded-full">
                 <IoArrowForward />
               </span>
             </div>
           </a>
+          <button
+            onClick={handleDownload}
+            className="relative p-2 px-4 rounded-full text-sm md:text-lg bg-[#3DB883] border-none text-white hover:bg-[#267e58]">
+            {isDownloading ? (
+              <h1 className=" flex items-center justify-center">
+                Downloading
+                <span className="loading loading-infinity loading-md"></span>
+              </h1>
+            ) : (
+              "Download CV"
+            )}
+          </button>
           <a
+            ref={downloadLink}
             href={resume}
             download="resume"
-            className="p-2 px-4 rounded-full bg-[#3DB883] border-none text-white hover:bg-[#267e58]">
-            Download CV
-          </a>
+            style={{ display: "none" }}></a>
         </div>
       </div>
     </div>
   );
 };
 
-export default Nabvar;
+export default Navbar;

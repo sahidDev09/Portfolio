@@ -57,7 +57,7 @@ const About = () => {
             <span>Let's connect and create something amazing together!</span>
           </p>
           <div>
-            <h1 className=" text-2xl font-semibold my-4">Contact With me</h1>
+            <h1 className=" text-2xl font-semibold my-4">Contact with me</h1>
             <ul className=" flex gap-4 items-center">
               <li>
                 <a

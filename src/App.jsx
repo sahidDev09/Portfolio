@@ -2,6 +2,7 @@ import About from "./Components/About";
 import Landing from "./Components/Landing";
 import Marquee from "./Components/Marquee";
 import Nabvar from "./Components/Shared/Nabvar";
+import SkillsEdu from "./Components/SkillsEdu";
 import "./index.css";
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
       <Landing />
       <Marquee />
       <About />
+      <SkillsEdu />
     </div>
   );
 };

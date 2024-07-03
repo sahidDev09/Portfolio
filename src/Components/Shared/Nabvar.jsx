@@ -1,6 +1,6 @@
 const Nabvar = () => {
   return (
-    <div className="fixed z-[999] w-full font-['Neue Montreal']">
+    <div className="fixed z-[999] w-full font-['Neue_Montreal'] pt-2">
       <div className="navbar container mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
@@ -21,7 +21,7 @@ const Nabvar = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              className="menu menu-sm dropdown-content bg-base-100 rounded-box text-black z-[1] mt-3 w-52 p-2 shadow">
               <li>
                 <a href="">About me</a>
               </li>

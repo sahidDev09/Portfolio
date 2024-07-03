@@ -19,7 +19,9 @@ const Education = () => {
         </p>
       </div>
       <div className=" bg-zinc-800 md:m-5 m-2 p-5 rounded-md">
-        <h1 className=" md:text-2xl text-xl font-semibold ">Bachelor of Science Honours</h1>
+        <h1 className=" md:text-2xl text-xl font-semibold ">
+          Bachelor of Science Honours
+        </h1>
         <p className=" text-highlight-btn">Metropolitan University, Sylhet</p>
         <hr className=" border-zinc-700 my-2" />
         <p>
@@ -29,7 +31,7 @@ const Education = () => {
           </span>
         </p>
         <p>
-          Status: <span className=" font-semibold">Runing...</span>
+          Status: <span className=" font-semibold">3rd semester (2:1 )</span>
         </p>
       </div>
     </div>

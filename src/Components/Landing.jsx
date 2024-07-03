@@ -1,6 +1,10 @@
 const Landing = () => {
   return (
-    <div className=" relative w-full md:h-screen bg-zinc-900 flex justify-center items-center">
+    <div
+      data-scroll
+      data-scroll-section
+      data-scroll-speed="-.4"
+      className=" relative w-full md:h-screen bg-zinc-900 flex justify-center items-center">
       <img
         className=" my-20 md:my-0"
         src="https://i.ibb.co/rQc4c2z/git-Banner-ladning.png"

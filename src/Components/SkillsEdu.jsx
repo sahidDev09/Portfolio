@@ -19,7 +19,9 @@ const SkillsEdu = () => {
   });
 
   return (
-    <div className=" md:bg-zinc-800 py-10 m-5 md:m-0">
+    <div
+    
+      className=" md:bg-zinc-800 py-10 m-5 md:m-0">
       <h1 className=" text-4xl font-bold mb-10 text-center ">
         Skills & Educations
       </h1>

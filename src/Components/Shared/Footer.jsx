@@ -1,28 +1,65 @@
+/* eslint-disable no-unused-vars */
 import { FaEnvelope, FaFacebook, FaPhone } from "react-icons/fa";
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
+import Swal from "sweetalert2";
 
 const Footer = () => {
+  const handleemail = (e) => {
+    e.preventDefault();
+    Swal.fire({
+      title: "Thank you",
+      text: "Thank you for reching out, i will connect you as soon as possible",
+      icon: "success",
+    });
+  };
+
   return (
     <div>
       <footer className="bg-zinc-900 border-t border-zinc-700 dark:bg-gray-900">
         <div className="container px-6 py-8 mx-auto">
-          <div className="flex flex-col items-center text-center">
-            <a href="">
-              <img
-                className=" w-24"
-                src="https://i.ibb.co/zh90RR6/SLOGO.png"
-                alt=""
-              />
-            </a>
-            <div className="max-w-md mx-auto mt-4 md:flex items-center gap-4 text-gray-500 dark:text-gray-400">
-              <div className=" flex items-center  gap-2">
-                <FaEnvelope />
-                <h1>iamsahidofficial99@gmail.com</h1>
+          <div className=" flex justify-between items-center">
+            <div className="flex flex-col items-center mx-auto md:-mx-0 text-center">
+              <a href="">
+                <img
+                  className=" w-24"
+                  src="https://i.ibb.co/zh90RR6/SLOGO.png"
+                  alt=""
+                />
+              </a>
+              <div className="max-w-md mx-auto mt-4 text-center md:text-left  items-center gap-4 text-gray-500 dark:text-gray-400">
+                <div className=" flex items-center  gap-2">
+                  <FaEnvelope />
+                  <h1>iamsahidofficial99@gmail.com</h1>
+                </div>
+                <div className=" flex items-center  gap-2">
+                  <FaPhone />
+                  <h1>+8801784-321799</h1>
+                </div>
               </div>
-              <div className=" flex items-center  gap-2">
-                <FaPhone />
-                <h1>+8801784-321799</h1>
-              </div>
+            </div>
+
+            <div className=" w-[30vw] hidden md:inline">
+              <h1 className=" text-2xl font-semibold mb-4">Get in Touch</h1>
+              <form
+                onSubmit={handleemail}
+                className=" flex flex-col gap-2"
+                action="">
+                <input
+                  className=" input focus:outline-none"
+                  type="email"
+                  required
+                  placeholder="Enter your E-mail"
+                />
+                <textarea
+                  className="input focus:outline-none"
+                  required
+                  placeholder="Your message"></textarea>
+                <input
+                  className=" w-full btn bg-highlight-btn text-white hover:bg-zinc-700"
+                  type="submit"
+                  value="Send Email"
+                />
+              </form>
             </div>
           </div>
 

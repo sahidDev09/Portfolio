@@ -9,6 +9,7 @@ import LocomotiveScroll from "locomotive-scroll";
 
 import "./index.css";
 import Footer from "./Components/Shared/Footer";
+import FeaturesProjects from "./Components/FeaturesProjects";
 
 const App = () => {
   const locomotiveScroll = new LocomotiveScroll();
@@ -20,6 +21,7 @@ const App = () => {
       <Marquee />
       <About />
       <SkillsEdu />
+      <FeaturesProjects />
       <Footer />
     </div>
   );

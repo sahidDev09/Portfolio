@@ -1,65 +1,87 @@
 [
-    {
-        "id": 1,
-        "project_name": "Hookey Fields",
-        "description": "A dynamic website for professional Hookeys clubs and programs, featuring interactive elements and a user-friendly interface.",
-        "features": [
-            "Navbar with menu, navlinks, button, and search bar",
-            "Slider hero section",
-            "Grid and progress bar styled sections for clubs and programs",
-            "Product selling feature",
-            "Expandable FAQ section",
-            "'Get in Touch' section for user suggestions and reviews"
-        ],
-        "technology_uses": [
-            "HTML",
-            "CSS",
-            "Tailwind CSS",
-            "JavaScript",
-            "Figma"
-        ],
-        "image": "https://example.com/images/hookey_fields.jpg"
-    },
-    {
-        "id": 2,
-        "project_name": "BitBard",
-        "description": "A modern website designed to showcase the latest posts and updates, with interactive UI elements and efficient data handling.",
-        "features": [
-            "Navbar with menu, nav links, button, and tooltip",
-            "Welcome hero section",
-            "JSON post data functionality",
-            "'Mark as read' section in the sidebar",
-            "Feature for the latest posts"
-        ],
-        "technology_uses": [
-            "HTML",
-            "CSS",
-            "Tailwind CSS",
-            "Daisys",
-            "JavaScript",
-            "Figma"
-        ],
-        "image": "https://example.com/images/bitbard.jpg"
-    },
-    {
-        "id": 3,
-        "project_name": "Project Tracker",
-        "description": "A comprehensive project management tool to track progress, manage tasks, and collaborate with team members.",
-        "features": [
-            "Dashboard with project overview",
-            "Task management with drag-and-drop functionality",
-            "Real-time collaboration and chat",
-            "Progress tracking with visual charts",
-            "User and role management"
-        ],
-        "technology_uses": [
-            "React",
-            "Node.js",
-            "Express",
-            "MongoDB",
-            "Socket.io",
-            "CSS"
-        ],
-        "image": "https://example.com/images/project_tracker.jpg"
-    }
+  {
+    "id": 1,
+    "project_name": "Medi-Nova Diagnostic Center",
+    "server": "https://github.com/sahidDev09/Medi-Nova-server-MERN",
+    "client": "https://github.com/sahidDev09/Medi-Nova-client-MERN",
+    "live": "https://medinova-dc16a.web.app",
+    "description": "MediNova is a comprehensive diagnostic center management system designed to streamline operations for both users and administrators. This web application allows users to book and manage appointments, while administrators can oversee the entire system efficiently.",
+    "features": [
+      "Book Appointments",
+      "Cancel Appointments",
+      "Authentication",
+      "Responsive Design",
+      "Manage Appointments",
+      "User Management",
+      "Dynamic Banner",
+      "Statistics Charts"
+    ],
+
+    "technology_uses": [
+      "Jsx",
+      "CSS",
+      "Tailwind CSS",
+      "React.js",
+      "Node.js",
+      "MongoDB",
+      "Express.js",
+      "Figma",
+      "Firebase"
+    ],
+    "image": "https://i.ibb.co/3YdmsHd/SCR-20240704-ooom.jpg"
+  },
+  {
+    "id": 2,
+    "project_name": "Write-Wave",
+    "server": "https://github.com/sahidDev09/WriteWave-Server-Node",
+    "client": "https://github.com/sahidDev09/WriteWave-Client-react",
+    "live": "https://writewave-99267.web.app",
+    "description": "WriteWave is a dynamic and interactive blog website that allows users to post, update, and manage blogs on various topics such as entertainment, sports, health, technology, traveling, and more. The platform includes features like wishlist functionality, animations, security, and authentication with Google login.",
+    "features": [
+      "Blog Posting",
+      "Blog Updating",
+      "Wishlist",
+      "Animations",
+      "Authentication"
+    ],
+    "technology_uses": [
+      "Jsx",
+      "CSS",
+      "Tailwind CSS",
+      "React.js",
+      "Node.js",
+      "MongoDB",
+      "Express.js",
+      "Figma",
+      "Firebase"
+    ],
+    "image": "https://i.ibb.co/XSc5KYw/SCR-20240704-opot.png"
+  },
+  {
+    "id": 3,
+    "project_name": "ArtSync Website",
+    "server": "https://github.com/sahidDev09/ArtSync-server",
+    "client": "https://github.com/sahidDev09/ArtSync-Client",
+    "live": "https://artsync-b902d.web.app",
+    "description": "Welcome to ArtSync, your premier destination for exploring, sharing, and synchronizing with the world of arts and crafts!",
+    "features": [
+      "Art and Craft Categories",
+      "Swiper Slider",
+      "Customer Reviews",
+      "Contact Page",
+      "User Data Management"
+    ],
+    "technology_uses": [
+      "Jsx",
+      "CSS",
+      "Tailwind CSS",
+      "React.js",
+      "Node.js",
+      "MongoDB",
+      "Express.js",
+      "Figma",
+      "Firebase"
+    ],
+    "image": "https://i.ibb.co/B2TVfG4/SCR-20240704-orbr.jpg"
+  }
 ]

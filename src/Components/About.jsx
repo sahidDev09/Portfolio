@@ -1,10 +1,11 @@
 /* eslint-disable react/no-unescaped-entities */
+
 import { IoArrowForward } from "react-icons/io5";
 
 const About = () => {
   return (
     <div className=" w-full md:p-20 p-5 bg-zinc-900 rounded-t-3xl">
-      <h1 className=" font-neue text-[3.6vw] leading-[4.4vw] tracking-normal ">
+      <h1 className=" font-neue md:text-[3.6vw] md:leading-[4.4vw] tracking-normal ">
         Welcome to my digital portfolio! I’m Sahid, a passionate MERN stack
         developer dedicated to crafting beautiful and functional websites. Dive
         in to explore my work and journey.
@@ -22,91 +23,93 @@ const About = () => {
         </button>
       </h1>
 
-      <hr className=" md:my-14 my-8 border-[1px] border-zinc-400" />
+      <div id="aboutme">
+        <hr className=" md:my-14 my-8 border-[1px] border-zinc-400" />
 
-      <div className=" grid md:grid-cols-2 gap-10">
-        <div className="about-details">
-          <h1 className=" font-neue text-2xl md:text-5xl text-highlight-btn">
-            My Approach
-          </h1>
-          <hr className=" my-6" />
+        <div className=" grid md:grid-cols-2 gap-10">
+          <div className="about-details">
+            <h1 className=" font-neue text-2xl md:text-5xl text-highlight-btn">
+              My Approach
+            </h1>
+            <hr className=" my-6" />
 
-          <h1 className="md:text-7xl text-4xl font-bold uppercase ">
-            SAHID AHMED
-          </h1>
-          <p className=" text-zinc-400">
-            Computer Science and Engineering Student & MERN Stack Developer
-          </p>
-          <h1 className=" text-2xl font-semibold my-4">About Me</h1>
-          <p className=" flex flex-col gap-3 text-zinc-400">
-            <span>
-              Hello! I am a MERN stack developer with expertise in{" "}
-              <span className=" text-highlight-btn">
-                HTML, CSS, Tailwind, JavaScript, React.js, Express.js, Node.js,
-                MongoDB, Firebase, Git, and GitHub
+            <h1 className="md:text-7xl text-4xl font-bold uppercase ">
+              SAHID AHMED
+            </h1>
+            <p className=" text-zinc-400">
+              Computer Science and Engineering Student & MERN Stack Developer
+            </p>
+            <h1 className=" text-2xl font-semibold my-4">About Me</h1>
+            <p className=" flex flex-col gap-3 text-zinc-400">
+              <span>
+                Hello! I am a MERN stack developer with expertise in{" "}
+                <span className=" text-highlight-btn">
+                  HTML, CSS, Tailwind, JavaScript, React.js, Express.js,
+                  Node.js, MongoDB, Firebase, Git, and GitHub
+                </span>
+                . I started my journey with Programming Hero and am currently
+                exploring Next.js to enhance my skills
               </span>
-              . I started my journey with Programming Hero and am currently
-              exploring Next.js to enhance my skills
-            </span>
-            <span>
-              As a computer science student at Metropolitan University Sylhet, I
-              love learning new technologies and collaborating in team
-              environments. My goal is to build innovative web applications with
-              great user experiences.
-            </span>
-            <span>Let's connect and create something amazing together!</span>
-          </p>
-          <div>
-            <h1 className=" text-2xl font-semibold my-4">Contact with me</h1>
-            <ul className=" flex gap-4 items-center">
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/sahidofficial09"
-                  target="_blank">
-                  <img
-                    className=" w-14"
-                    src="https://i.ibb.co/R4rby6v/linkedin.png"
-                    alt=""
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="https://discord.gg/JTNQUePX" target="_blank">
-                  <img
-                    className=" w-14"
-                    src="https://i.ibb.co/FHfPL6C/discord.png"
-                    alt=""
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="https://www.facebook.com/Sm.sahid99" target="_blank">
-                  <img
-                    className=" w-14"
-                    src="https://i.ibb.co/0ymLbNB/facebook.png"
-                    alt=""
-                  />
-                </a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/0sahid_99" target="_blank">
-                  <img
-                    className=" w-14"
-                    src="https://i.ibb.co/sm73CBR/instagram.png"
-                    alt=""
-                  />
-                </a>
-              </li>
-            </ul>
+              <span>
+                As a computer science student at Metropolitan University Sylhet,
+                I love learning new technologies and collaborating in team
+                environments. My goal is to build innovative web applications
+                with great user experiences.
+              </span>
+              <span>Let's connect and create something amazing together!</span>
+            </p>
+            <div>
+              <h1 className=" text-2xl font-semibold my-4">Contact with me</h1>
+              <ul className=" flex gap-4 items-center">
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/sahidofficial09"
+                    target="_blank">
+                    <img
+                      className=" w-14"
+                      src="https://i.ibb.co/R4rby6v/linkedin.png"
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://discord.gg/JTNQUePX" target="_blank">
+                    <img
+                      className=" w-14"
+                      src="https://i.ibb.co/FHfPL6C/discord.png"
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/Sm.sahid99" target="_blank">
+                    <img
+                      className=" w-14"
+                      src="https://i.ibb.co/0ymLbNB/facebook.png"
+                      alt=""
+                    />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/0sahid_99" target="_blank">
+                    <img
+                      className=" w-14"
+                      src="https://i.ibb.co/sm73CBR/instagram.png"
+                      alt=""
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div className=" p-5">
-          <div className="rounded-2xl">
-            <img
-              className=" rounded-2xl object-cover"
-              src="https://i.ibb.co/hdTcvZN/1716014315884.jpg"
-              alt=""
-            />
+          <div className=" p-5">
+            <div className="rounded-2xl">
+              <img
+                className=" rounded-2xl object-cover"
+                src="https://i.ibb.co/hdTcvZN/1716014315884.jpg"
+                alt=""
+              />
+            </div>
           </div>
         </div>
       </div>

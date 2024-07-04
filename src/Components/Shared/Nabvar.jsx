@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useState, useRef } from "react";
 import { FaGithub } from "react-icons/fa";
 import { IoArrowForward } from "react-icons/io5";
@@ -39,10 +40,10 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box text-black z-[1] mt-3 w-52 p-2 shadow">
               <li>
-                <a href="">About me</a>
+                <a href="#aboutme">About me</a>
               </li>
               <li>
-                <a href="">Skills</a>
+                <a href="#skillsedu">Skills</a>
               </li>
               <li>
                 <a href="">Projects</a>
@@ -58,10 +59,10 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 gap-3">
             <li className=" font-neue hover:bg-[#3DB883] hover:rounded-full transition-all">
-              <a href="">About me</a>
+              <a href="#aboutme">About me</a>
             </li>
             <li className=" font-neue hover:bg-[#3DB883] hover:rounded-full transition-all">
-              <a href="">Skills</a>
+              <a href="#skillsedu">Skills</a>
             </li>
             <li className=" font-neue hover:bg-[#3DB883] hover:rounded-full transition-all">
               <a href="">Projects</a>

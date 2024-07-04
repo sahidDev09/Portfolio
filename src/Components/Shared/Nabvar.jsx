@@ -46,7 +46,7 @@ const Navbar = () => {
                 <a href="#skillsedu">Skills</a>
               </li>
               <li>
-                <a href="">Projects</a>
+                <a href="#projects">Projects</a>
               </li>
             </ul>
           </div>
@@ -65,7 +65,7 @@ const Navbar = () => {
               <a href="#skillsedu">Skills</a>
             </li>
             <li className=" font-neue hover:bg-[#3DB883] hover:rounded-full transition-all">
-              <a href="">Projects</a>
+              <a href="#projects">Projects</a>
             </li>
           </ul>
         </div>

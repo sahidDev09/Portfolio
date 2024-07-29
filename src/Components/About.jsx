@@ -1,4 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
+import profile from "../assets/images/profile.jpeg";
+import facebook from "../assets/images/social-media-icons/facebook-2.png";
+import discord from "../assets/images/social-media-icons/discord.png";
+import linkedin from "../assets/images/social-media-icons/linkedin-2.png";
+import instagram from "../assets/images/social-media-icons/instagram.png";
 
 import { IoArrowForward } from "react-icons/io5";
 
@@ -67,38 +72,22 @@ const About = () => {
                   <a
                     href="https://www.linkedin.com/in/sahidofficial09"
                     target="_blank">
-                    <img
-                      className=" w-14"
-                      src="https://i.ibb.co/R4rby6v/linkedin.png"
-                      alt=""
-                    />
+                    <img className=" w-14" src={linkedin} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="https://discord.gg/JTNQUePX" target="_blank">
-                    <img
-                      className=" w-14"
-                      src="https://i.ibb.co/FHfPL6C/discord.png"
-                      alt=""
-                    />
+                    <img className=" w-14" src={discord} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="https://www.facebook.com/Sm.sahid99" target="_blank">
-                    <img
-                      className=" w-14"
-                      src="https://i.ibb.co/0ymLbNB/facebook.png"
-                      alt=""
-                    />
+                    <img className=" w-14" src={facebook} alt="" />
                   </a>
                 </li>
                 <li>
                   <a href="https://www.instagram.com/0sahid_99" target="_blank">
-                    <img
-                      className=" w-14"
-                      src="https://i.ibb.co/sm73CBR/instagram.png"
-                      alt=""
-                    />
+                    <img className=" w-14" src={instagram} alt="" />
                   </a>
                 </li>
               </ul>
@@ -106,11 +95,7 @@ const About = () => {
           </div>
           <div className=" p-5">
             <div className="rounded-2xl">
-              <img
-                className=" rounded-2xl object-cover"
-                src="https://i.ibb.co/hdTcvZN/1716014315884.jpg"
-                alt=""
-              />
+              <img className=" rounded-2xl object-cover" src={profile} alt="" />
             </div>
           </div>
         </div>

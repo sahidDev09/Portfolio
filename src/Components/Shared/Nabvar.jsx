@@ -2,7 +2,8 @@
 import { useState, useRef } from "react";
 import { FaGithub } from "react-icons/fa";
 import { IoArrowForward } from "react-icons/io5";
-import resume from "../../assets/resume/Profile-3.pdf";
+import resume from "../../assets/resume/resume-2.pdf";
+import slogo from "../../assets/images/SLOGO.png";
 
 const Navbar = () => {
   const [isDownloading, setIsDownloading] = useState(false);
@@ -50,11 +51,7 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <img
-            className=" md:w-14 w-10"
-            src="https://i.ibb.co/zh90RR6/SLOGO.png"
-            alt=""
-          />
+          <img className=" md:w-14 w-10" src={slogo} alt="" />
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 gap-3">

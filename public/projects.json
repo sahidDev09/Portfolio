@@ -28,7 +28,7 @@
       "Figma",
       "Firebase"
     ],
-    "image": "https://i.ibb.co/3YdmsHd/SCR-20240704-ooom.jpg"
+    "image": "/src/assets/images/projects-thumbnil/medi_nova.jpeg"
   },
   {
     "id": 2,
@@ -55,7 +55,7 @@
       "Figma",
       "Firebase"
     ],
-    "image": "https://i.ibb.co/XSc5KYw/SCR-20240704-opot.png"
+    "image": "/src/assets/images/projects-thumbnil/Write_wave.png"
   },
   {
     "id": 3,
@@ -82,6 +82,6 @@
       "Figma",
       "Firebase"
     ],
-    "image": "https://i.ibb.co/B2TVfG4/SCR-20240704-orbr.jpg"
+    "image": "../src/assets/images/projects-thumbnil/syncArt.jpeg"
   }
 ]

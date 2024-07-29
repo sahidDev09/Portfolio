@@ -2,6 +2,7 @@
 import { FaEnvelope, FaFacebook, FaPhone } from "react-icons/fa";
 import { FaGithub, FaLinkedin } from "react-icons/fa6";
 import Swal from "sweetalert2";
+import slogo from "../../assets/images/SLOGO.png";
 
 const Footer = () => {
   const handleemail = (e) => {
@@ -22,7 +23,7 @@ const Footer = () => {
               <a href="">
                 <img
                   className=" w-24"
-                  src="https://i.ibb.co/zh90RR6/SLOGO.png"
+                  src={slogo}
                   alt=""
                 />
               </a>
@@ -55,7 +56,7 @@ const Footer = () => {
                   required
                   placeholder="Your message"></textarea>
                 <input
-                  className=" w-full btn bg-highlight-btn text-white hover:bg-zinc-700"
+                  className=" w-full btn bg-highlight-btn text-white hover:bg-zinc-700 border-none "
                   type="submit"
                   value="Send Email"
                 />

@@ -12,6 +12,7 @@ import Footer from "./Components/Shared/Footer";
 import FeaturesProjects from "./Components/FeaturesProjects";
 
 const App = () => {
+  
   const locomotiveScroll = new LocomotiveScroll();
 
   return (

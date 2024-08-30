@@ -28,7 +28,7 @@
       "Figma",
       "Firebase"
     ],
-    "image": "/src/assets/images/projects-thumbnil/medi_nova.jpeg"
+    "image": "/assets/images/projects-thumbnil/medi_nova.jpeg"
   },
   {
     "id": 2,
@@ -55,7 +55,7 @@
       "Figma",
       "Firebase"
     ],
-    "image": "/src/assets/images/projects-thumbnil/Write_wave.png"
+    "image": "/assets/images/projects-thumbnil/syncArt.jpeg"
   },
   {
     "id": 3,
@@ -82,6 +82,6 @@
       "Figma",
       "Firebase"
     ],
-    "image": "../src/assets/images/projects-thumbnil/syncArt.jpeg"
+    "image": "/assets/images/projects-thumbnil/Write_wave.png"
   }
 ]
